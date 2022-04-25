@@ -8,11 +8,12 @@ import Content from "./components/Content.vue";
     <Nav />
   </header>
 
-  <main class="container">
+  <main class="">
     <Content />
   </main>
 </template>
 
 <style >
 @import "./assets/base.css";
+
 </style>
