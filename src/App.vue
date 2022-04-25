@@ -1,19 +1,18 @@
 <script setup>
-import Nav from './components/Nav.vue';
-
+import Nav from "./components/Nav.vue";
+import Content from "./components/Content.vue";
 </script>
 
 <template>
   <header>
-    <Nav/>
+    <Nav />
   </header>
 
-  <main>
-
+  <main class="container">
+    <Content />
   </main>
 </template>
 
-<style>
-@import './assets/base.css';
-
+<style >
+@import "./assets/base.css";
 </style>
